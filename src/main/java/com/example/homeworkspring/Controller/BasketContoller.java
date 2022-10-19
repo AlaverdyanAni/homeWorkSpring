@@ -1,11 +1,10 @@
-package Controller;
+package com.example.homeworkspring.Controller;
 
-import Service.BasketService;
+import com.example.homeworkspring.Service.BasketService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.List;
 
